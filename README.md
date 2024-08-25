@@ -19,4 +19,5 @@ For requesting to the thrid one, it is necessary the send a valid token in the r
 The objective of this application is to understand and study the salting method of storing passwords.
 
 GitHub: PassosEduardo
+<br>
 Email: eduardo.sepassos@gmail.com
