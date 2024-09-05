@@ -35,9 +35,9 @@ namespace Salting.Api
             if (credentials is null)
                 return null; //usuario nao encontrado
 
-            var encrypPassword = SaltHandler.EncrypPassword(request.Password, credentials.encryptedSalt);
+            var encrypPassword = SaltHandler.EncrypPassword(request.Password, credentials.base64Salt);
 
-            if (string.Equals(credentials.encryptedPassword, encrypPassword))
+            if (string.Equals(credentials.saltedPassword, encrypPassword))
                 return TokenHandler.GenerateToken();
 
 

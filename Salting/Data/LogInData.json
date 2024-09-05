@@ -1,1 +1,1 @@
-[{"user_id":1,"email":"salting@gmail.com","encryptedPassword":"A7S9rkGVD1VHb12zzcf+obTGSy8qxNBg5jsCpKR3Rr4=","encryptedSalt":"tmIz+av+wLdt33BX5S1B/A=="}]
+[{"user_id":1,"email":"salting@gmail.com","saltedPassword":"6MgCCOYHH0rrNfFa7WNmbBTwgywJ0sdXbApFlq+/lBM=","base64Salt":"kUqt6LqaBRvUUXKu8AK42w=="}]
