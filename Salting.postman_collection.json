@@ -58,7 +58,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"salting@gmail.com\",\r\n    \"password\": \"veryStrongPassword\"\r\n}",
+					"raw": "{\r\n    \"email\": \"user@example.com\",\r\n    \"password\": \"string\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -89,7 +89,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{salting_token}}",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE3MzU1NjQ3OTUsImV4cCI6MTczNTU3MTk5NSwiaWF0IjoxNzM1NTY0Nzk1fQ.Sx5C2mPHY1HsePC763NRFXIbJ5qGsprueUHPSjCeHTE",
 							"type": "string"
 						}
 					]

@@ -11,7 +11,12 @@ namespace Salting.Api
             string json = stream.ReadToEnd();
             stream.Close();
 
-            return JsonConvert.DeserializeObject<List<TEntity>>(json);
+            var result = JsonConvert.DeserializeObject<List<TEntity>>(json);
+
+            if(result is null)
+                return Enumerable.Empty<TEntity>().ToList();
+
+            return result;
         }
     }
 }
